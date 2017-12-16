@@ -366,7 +366,7 @@ ru:
       send_instructions: "Вы получите письмо с инструкциями о том как разблокировать ваш аккаунт в течении неско��ьких минут."
       unlocked: "Ваш аккаунт был успешно разблокирован. Сейчас вы вошли в систему."
     user_passwords:
-      user:
+      spree_user:
         cannot_be_blank: "Пароль не может быть пустым."
         send_instructions: "Вы получите письмо с инструкциями о том, как изменить ваш пароль в течении нескольких минут."
         updated: "Ваш пароль был успешно изменен. Сейчас вы в системе."
@@ -537,6 +537,7 @@ ru:
     card_type_is: "Тип карты"
     cart: "Корзина"
     cart_subtotal:
+      other: 'Всего %{count} товар(ов)'
     categories: "Категории"
     category: "Категория"
     charged:
@@ -582,6 +583,7 @@ ru:
       US:
     coupon: "Купон"
     coupon_code: "Код купона"
+    coupon_code_apply: "Применить"
     coupon_code_already_applied: "Скидочный купон уже был применен к этому заказу"
     coupon_code_applied: "Купон успешно применен к Вашему заказу."
     coupon_code_better_exists: "Предыдущий купон выгоднее"
@@ -925,16 +927,16 @@ ru:
         instructions: "Ваш заказ был отменен. Сохраните эту информацию для истории."
         order_summary_canceled: "Детали заказа [ОТМЕНЕНО]"
         subject: "Аннулирование заказа"
-        subtotal:
-        total:
+        subtotal: "Промежуточная сумма"
+        total: "Итого"
       confirm_email:
         dear_customer: "Дорогой покупатель,\n"
         instructions: "Пожалуйста, проверьте детали заказа."
         order_summary: "Детали заказа"
         subject: "Подтверждение заказа"
-        subtotal:
+        subtotal: "Промежуточная сумма"
         thanks: "Спасибо, что выбрали нас."
-        total:
+        total: "Итого"
     order_not_found: "Мы не смогли найти Ваш заказ. Попробуйте еще раз."
     order_number: "Заказ %{number}"
     order_processed_successfully: "Ваш заказ был успешно обработан"
@@ -959,7 +961,7 @@ ru:
     other_items_in_other:
     out_of_stock: "Нет в наличии"
     overview: "Обзор"
-    package_from: "Фасовку в"
+    package_from: "Доставка из"
     pagination:
       next_page: "следующая страница »"
       previous_page: "« предыдущая страница"
@@ -1189,7 +1191,7 @@ ru:
     ship_total: "Всего к доставке"
     shipment: "Отправка"
     shipment_adjustments: "Корректировки доставки"
-    shipment_details:
+    shipment_details: "Доставка из %{stock_location}. \n Метод доставки: %{shipping_method}"
     shipment_mailer:
       shipped_email:
         dear_customer: "Дорогой покупатель,\n"
@@ -1209,7 +1211,7 @@ ru:
       shipped: "отправлен"
     shipment_transfer_error:
     shipment_transfer_success:
-    shipments: "Отправки"
+    shipments: "Способ доставки"
     shipped: "Отправлено"
     shipping: "Доставка"
     shipping_address: "Адрес доставки"
